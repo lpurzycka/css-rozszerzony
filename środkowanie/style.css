@@ -1,0 +1,47 @@
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+     }
+
+/*pozycjonowanie elementu blokowego*/
+
+
+#kwadrat {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+#box-width {
+  background-color: red;
+    position: relative;
+ 
+}
+/*pozycjonowanie elementu liniowego*/
+#box-width > p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#box-height {
+    position: relative;
+    background-color: aqua;
+    transition: height 1s linear;
+}
+
+}
+
+#box-width-height {
+    background-color: greenyellow;
+    transition: width 2s ease-out, height 2s ease-out;
+}
+

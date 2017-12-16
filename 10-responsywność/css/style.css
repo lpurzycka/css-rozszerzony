@@ -1,0 +1,6 @@
+.box {
+border: 5px solid yellow;
+width: 200px;
+height: 600px; 
+display: inline-block;
+}

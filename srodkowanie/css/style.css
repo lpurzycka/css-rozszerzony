@@ -1,0 +1,51 @@
+.box {
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+}
+#box-height {
+    background-color: cornflowerblue;
+    transition: height 1s linear;
+    position:relative;
+}
+#kwadrat {
+    position:absolute;
+    width: 50px;
+    height:50px;
+    background-color:chocolate;
+    margin:0 auto;
+    left:0;
+    right:0;
+    top:50%;
+    transform:translateY(-50%);
+    
+}
+#box-width {
+    background-color: red;
+    position: relative
+}
+#box-width > p {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+/*
+#box-width:hover {
+    width:400px;
+}
+*/
+
+#box-height:hover {
+ height: 400px;
+    background-color: fuchsia;
+}
+#box-width-height {
+    background-color: darkgreen;
+    transition: width 2s ease-out, height 2s ease-out;
+}
+#box-width-height:hover {
+    width: 400px;
+    height:400px;
+}
+}

@@ -24,6 +24,9 @@
     background-color: red;
     position: relative
 }
+
+
+/*rodzin musi być ustawiony na relative*/
 #box-width > p {
     position:absolute;
     top:50%;

@@ -6,7 +6,7 @@ img {
 }
 /*obrót*/
 .rotate img {
-    transform: rotate(50deg);
+    transform: rotate(250deg);
 }
 
 /*przesunięcie*/
